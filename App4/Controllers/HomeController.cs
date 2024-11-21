@@ -28,5 +28,10 @@ namespace App4.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        public void Print()
+        {
+
+        }
     }
 }
