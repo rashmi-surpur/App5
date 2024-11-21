@@ -15,7 +15,7 @@ namespace App4.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return Content("Index-v1");
         }
 
         public IActionResult Privacy()
